@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.ms_container {
     height: 100vh;
     width: 100%;
 }
@@ -26,7 +26,7 @@ main {
     align-items: center;
 }
 
-.grid-container {
+.grid {
     height: 450px;
     width: 450px;
     border: 1px solid black;
@@ -45,8 +45,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.grid-item-medium {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
 }
 
-.grid-item.active {
+.grid-item-hard {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
+.active {
     background-color:#6495ed;
 }
