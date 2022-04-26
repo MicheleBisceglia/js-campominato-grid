@@ -12,6 +12,14 @@
 
 header {
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#start {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
 }
 
 footer {
@@ -47,16 +55,11 @@ main {
     align-items: center;
     cursor: pointer;
 }
-.grid-item-medium {
-    width: calc(100% / 9);
-    height: calc(100% / 9);
-}
-
-.grid-item-hard {
-    width: calc(100% / 7);
-    height: calc(100% / 7);
-}
 
 .active {
     background-color:#6495ed;
 }
+
+.hidden {
+    display: none;
+  }
