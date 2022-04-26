@@ -3,7 +3,7 @@
 
 //gestisco il bottone start
 document.getElementById("start").addEventListener("click", Game);
-
+const startBtn = document.getElementById("start-btn");
 
 // MAIN FUNCTION
 function Game() {
